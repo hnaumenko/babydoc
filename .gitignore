@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+
+# Environment variables (CRITICAL - contains API keys!)
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Session storage (contains user data)
+sessions.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Data files (large files, sensitive content)
+data/raw/*.pdf
+data/markdown/*.md
+data/processed/
+data/featureParsedMarkdowBooks/
+
+# Keep directory structure
+!data/raw/.gitkeep
+!data/markdown/.gitkeep
+!data/processed/.gitkeep
+
+# Supabase local
+.supabase/
+
+# Debug
+debug/
+*.dump
+
+# OS files
+Thumbs.db
+.DS_Store
