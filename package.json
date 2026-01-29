@@ -20,7 +20,7 @@
     "dotenv": "^16.6.1",
     "franc": "^6.2.0",
     "langchain": "^0.3.12",
-    "pdf-parse": "^1.1.4",
+    "pdf-parse": "1.1.1",
     "telegraf": "^4.16.3",
     "telegraf-session-local": "^2.1.1"
   },
